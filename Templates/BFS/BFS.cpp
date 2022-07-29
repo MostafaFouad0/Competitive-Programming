@@ -6,7 +6,6 @@ void BFS(int Node) {
     while (!q.empty()) {
         int current_node = q.front();
         q.pop();
-        cout << current_node << " ";
         for (int child: adjlist[current_node]) {
             if (!is_visited[child]) {
                 is_visited[child] = true; // to avoid cycles
