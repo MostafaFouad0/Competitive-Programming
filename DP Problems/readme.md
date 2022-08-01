@@ -9,3 +9,5 @@
 - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i?lang=en)
 - [Woodcutters](https://codeforces.com/problemset/problem/545/C)
 - [Boredom](https://codeforces.com/problemset/problem/455/A)
+- [Let Me Count The Ways](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=293)
+- [Stones](https://atcoder.jp/contests/dp/tasks/dp_k?lang=en)
