@@ -12,3 +12,4 @@
 - [Let Me Count The Ways](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=293)
 - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k?lang=en)
 - [Easy Longest Increasing Subsequence](https://www.spoj.com/problems/ELIS/en/)
+- [Road Optimization](https://codeforces.com/problemset/problem/1625/C)
