@@ -13,3 +13,4 @@
 - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k?lang=en)
 - [Easy Longest Increasing Subsequence](https://www.spoj.com/problems/ELIS/en/)
 - [Road Optimization](https://codeforces.com/problemset/problem/1625/C)
+- [Good Key, Bad Key](https://codeforces.com/contest/1703/problem/G)
