@@ -7,3 +7,5 @@
 - [LCS](https://atcoder.jp/contests/dp/tasks/dp_f?lang=en)
 - [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h?lang=en)
 - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i?lang=en)
+- [Woodcutters](https://codeforces.com/problemset/problem/545/C)
+- [Boredom](https://codeforces.com/problemset/problem/455/A)
