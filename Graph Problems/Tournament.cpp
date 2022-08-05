@@ -13,7 +13,7 @@ bool vis[500];
 bool a[500][500];
 ll n{};
 
-void DFS(ll x) {
+void DFS(ll x) {// recursive DFS to check if x can reach y or not 
     vis[x] = true;
     //similar to directed graph
     // if x Defeated i
