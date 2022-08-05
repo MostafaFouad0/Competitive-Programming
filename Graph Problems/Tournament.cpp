@@ -15,7 +15,7 @@ ll n{};
 
 void DFS(ll x) {// recursive DFS to check if x can reach y or not 
     vis[x] = true;
-    //similar to directed graph
+    //directed graph
     // if x Defeated i
     for (int i = 1; i <= n; ++i) {
         if (a[x][i] && !vis[i]) {
