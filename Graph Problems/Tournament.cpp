@@ -31,6 +31,7 @@ void result() {
     for (int i = 0; i < ((n * (n - 1)) / 2) - 1; ++i) {
         ll win,lose;
         cin >>win >> lose;
+        // adj matrix 
         a[win][lose] = true;
     }
     ll x{}, y{};
