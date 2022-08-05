@@ -44,8 +44,10 @@ void result() {
     }
     DFS(x);
     if (vis[y]) {
+        // if x Defeated i 
         cout << x << " " << y;
     } else {
+        // y Defeated x
         cout << y << " " << x;
     }
 
