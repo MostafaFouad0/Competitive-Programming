@@ -39,6 +39,7 @@ void result() {
             if (!a[i][j] && !a[j][i]) {
                 // choosing any pair
                 x = i, y = j;
+                // break; <--- optimization - but it's not necessary 
             }
         }
     }
