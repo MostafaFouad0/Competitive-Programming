@@ -22,13 +22,13 @@ void result() {
                     //can't beat the Jth person so we break (Not possible to beat all of them)
                     break;
                 }else if(a[i]=="scissors"&&a[j]!="paper"){
-                    // can't beat the Jth person so we break
+                    //can't beat the Jth person so we break (Not possible to beat all of them)
                     break;
                 }else if(a[i]=="paper"&&a[j]!="rock"){
                     //can't beat the Jth person so we break (Not possible to beat all of them)
                     break;
                 }else {
-                    //can't beat the Jth person so we break (Not possible to beat all of them)
+                    // can beat the Jth person so we increase the counter and continue checking 
                     c++;
                     continue;
                 }
