@@ -35,7 +35,7 @@ void result() {
                 ans=min(ans,c);
             }
         }
-        // (lxr) or (rxl)
+        // (l x r) or (r x l)
         swap(l,r);
     }
     cout<<ans;
