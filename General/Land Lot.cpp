@@ -31,7 +31,7 @@ void result() {
                         c+=a[i+k][j+i1];
                     }
                 }
-                // choosing the minimum
+                // choosing the minimum between all the Possibilities
                 ans=min(ans,c);
             }
         }
