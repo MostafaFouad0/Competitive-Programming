@@ -19,7 +19,7 @@ bool BFS_Bipartite(int node){
             if(current_color[child] == -1){ // if the child node has no color
                 current_color[child]=!current_color[cur]; // set the child node color to the opposite color of the parent node
                 vis[child]=1; // mark the child node as visited
-                q.push(child);
+                q.push(child); // pushing the child node to the queue
             }else if(current_color[cur] == current_color[child]){ // if the child node has the same color as the parent node
                 return false; // not a Bipartite graph
             }
