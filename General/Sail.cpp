@@ -48,6 +48,7 @@ void result() {
         cout<<ans;
         return;
     }
+    // did not reach the destination
     cout<<-1;
 
 }
