@@ -12,6 +12,7 @@ const int N = 2e5 + 9;
 
 
 void result() {
+    // greedy solution
     ll n{},x1{},y1{},x2{},y2{};
     cin>>n>>x1>>y1>>x2>>y2;//taking input
     string s;
