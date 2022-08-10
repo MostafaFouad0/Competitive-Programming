@@ -6,3 +6,4 @@
 - [2-3 Moves](https://codeforces.com/contest/1716/problem/A)
 - [Not a Cheap String](https://codeforces.com/contest/1702/problem/D)
 - [Sail](https://codeforces.com/problemset/problem/298/B)
+- [Snow Footprints](https://codeforces.com/contest/298/problem/A)
