@@ -15,6 +15,7 @@ void result() {
     ll n{};
     cin>>n;
     ll a[n+3];
+    // since the numbers will be sorted in range [1,1000]
     a[0]=0;
     a[n+1]=1001;
 
@@ -25,12 +26,15 @@ void result() {
     ll tmp{};
     for (int i = 1; i <=n; ++i) {
         if(a[i]==a[i-1]+1&&a[i]==a[i+1]-1){
+            // remove that number
             tmp++;
         }else{
+            // calculating tha maximum answer
             ans= max(tmp,ans);
             tmp=0;
         }
     }
+    // since the last step can't be calculated 
     cout<<max(ans,tmp);
 
 
