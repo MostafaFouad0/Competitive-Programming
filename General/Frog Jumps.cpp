@@ -12,6 +12,7 @@ const int N = 1e3 + 5;
 
 
 void result() {
+    //greedy 
     string s;
     cin>>s;
     vector<ll>v;
