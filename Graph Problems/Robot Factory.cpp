@@ -20,22 +20,23 @@ string bi(ll num) {
 
 void DFS(ll i, ll j) {
     if (i < 0 || j < 0 || i >= n || j >= m || vis[i][j] == 1) {
+        // visited position or outside of the grid 
         return;
     }
-    vis[i][j] = 1;
+    vis[i][j] = 1; // marking the position as visited 
     area++;
-    string s = bi(a[i][j]);
+    string s = bi(a[i][j]); // binary number
     //cout<<s<<"\n";
-    if (s[0] == '0') {
+    if (s[0] == '0') { // north
         DFS(i - 1, j);
     }
-    if (s[1] == '0') {
+    if (s[1] == '0') { // east
         DFS(i, j + 1);
     }
-    if (s[2] == '0') {
+    if (s[2] == '0') { // south
         DFS(i + 1, j);
     }
-    if (s[3] == '0') {
+    if (s[3] == '0') { // west
         DFS(i, j - 1);
     }
 
