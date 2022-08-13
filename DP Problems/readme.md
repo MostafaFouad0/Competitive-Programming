@@ -16,3 +16,4 @@
 - [Good Key, Bad Key](https://codeforces.com/contest/1703/problem/G)
 - [Getting Zero](https://codeforces.com/problemset/problem/1661/B)
 - [Making Towers](https://codeforces.com/problemset/problem/1706/B)
+- [Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/)
