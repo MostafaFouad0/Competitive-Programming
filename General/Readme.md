@@ -9,3 +9,4 @@
 - [Snow Footprints](https://codeforces.com/contest/298/problem/A)
 - [A Prank](https://codeforces.com/problemset/problem/1062/A)
 - [Queue](https://codeforces.com/contest/545/problem/D)
+- [Frog Jumps](https://codeforces.com/problemset/problem/1324/C)
