@@ -11,3 +11,6 @@
 - [Queue](https://codeforces.com/contest/545/problem/D)
 - [Frog Jumps](https://codeforces.com/problemset/problem/1324/C)
 - [Sort Zero](https://codeforces.com/contest/1712/problem/C)
+- [Remove Smallest](https://codeforces.com/contest/1399/problem/A)
+- [Gifts Fixing](https://codeforces.com/contest/1399/problem/B)
+- [Boats Competition](https://codeforces.com/contest/1399/problem/C)
