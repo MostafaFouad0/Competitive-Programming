@@ -1,21 +1,21 @@
-int LongestSubarrayWithSumDivisibleByK(vector<ll> &arr, int n, ll k) {
-    unordered_map<ll, int> mp;
+int LongestSubarrayWithSumDivisibleByK(vector<ll> &a, int n, ll k) {
+    map<ll, ll> m;
     ll ans = 0;
     ll curr_sum = 0;
     for (int i = 0; i < n; i++) {
-        s += arr[i];
+        s += a[i];
         ll md = s % k;
         if (md == 0)
         {
           ans = i + 1;
          }
-        else if (mp.find(md) == mp.end())
+        else if (m.find(md) == m.end())
         {
           mp[md] = i;
         }
-        else if (ans < (i - mp[md]))
+        else if (ans < (i - m[md]))
         {
-          ans = i - mp[md];
+          ans = i - m[md];
         }
     }
     return ans;
