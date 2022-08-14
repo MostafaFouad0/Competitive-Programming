@@ -1,18 +1,19 @@
-int Longest_Subarray_with_Sum_equal_to_K(vector<ll> &arr, ll k) {
+int Longest_Subarray_with_Sum_equal_to_K(vector<ll> &a, ll k) {
     int n = arr.size();
-    map<ll, int> mp;
-    mp[0] = 0;
-    int ret = 0, s = 0;
+    map<ll, ll> m;
+    m[0] = 0;
+    int ans = 0, s = 0;
     for (int i = 1; i <= n; ++i) {
-        s += arr[i];
-        int need = s - k;
-        if (mp.count(need)) 
-        {ret = max(ret, i - mp[need]);
-        }
-        if (mp.count(s) == 0)
+        s += a[i];
+        int rem = s - k;
+        if (m.count(rem)) 
         {
-          mp[s] = i;
+            ans = max(ret, i - m[rem]);
+        }
+        if (m.count(s) == 0)
+        {
+          m[s] = i;
         }
     }
-    return ret;
+    return ans;
 }
