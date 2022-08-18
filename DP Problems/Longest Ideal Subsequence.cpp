@@ -18,9 +18,9 @@ ll dp(ll idx = 0, ll lst = 27 ) {
     if (idx == n) {
         return 0;
     }
-    ll &ret = memo[idx][lst];// calculated answer
+    ll &ret = memo[idx][lst];
     if (ret != -1) {
-        return ret;
+        return ret;// calculated answer
     }
     if (lst == 27 || abs(s[idx] - 'a' - lst) <= k) {
         ret = dp(idx + 1, s[idx] - 'a') + 1;
