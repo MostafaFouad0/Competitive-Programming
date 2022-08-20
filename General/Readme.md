@@ -15,3 +15,5 @@
 - [Gifts Fixing](https://codeforces.com/contest/1399/problem/B)
 - [Boats Competition](https://codeforces.com/contest/1399/problem/C)
 - [Interesting Sum](https://codeforces.com/contest/1720/problem/B)
+- [Beautiful Array](https://codeforces.com/contest/1715/problem/B)
+
