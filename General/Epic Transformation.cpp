@@ -24,7 +24,7 @@ void result() {
         cin>>a[i];
         m[a[i]]++;
     }
-    priority_queue<ll>q;
+    priority_queue<ll>q; // to maintaine the order of the elements
     for(auto it:m){
         q.push(it.S);
     }
