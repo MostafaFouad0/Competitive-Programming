@@ -18,4 +18,5 @@
 - [Beautiful Array](https://codeforces.com/contest/1715/problem/B)
 - [Progress Bar](https://codeforces.com/contest/71/problem/B)
 - [Epic Transformation](https://codeforces.com/contest/1506/problem/D)
+- [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C)
 
