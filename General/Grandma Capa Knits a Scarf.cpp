@@ -22,15 +22,17 @@ void result() {
     cin>>s;
     map<char,ll>m;
     for (int i = 0; i < s.size(); ++i) {
-        m[s[i]]++;
+        m[s[i]]++; // occurrence of every char in the string 
     }
     ll ans=INT64_MAX;
     for(auto it:m){
         if(it.second!=0){
+            // calculating the answer if we delete that specific char 
             char tmp=it.first;
             ll l{},r=n-1,mn{};
             bool f=false;
             while(l<=r){
+                // maintaing two pointers on the string
                 if(s[l]==s[r]){
                     r--;
                     l++;
@@ -54,6 +56,7 @@ void result() {
     }
     if(ans==INT64_MAX){
         cout<<-1;
+        // no solution 
         return;
     }
     cout<<ans;
