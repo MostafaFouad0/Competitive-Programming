@@ -29,6 +29,8 @@ void result() {
         }
     }
     ll tmp2{};
+    // first half R
+    // second half L
     for (int i = 0; i < n / 2; ++i) {
         ll tmp = n - i - 1;
         if(s[i]=='L'){
