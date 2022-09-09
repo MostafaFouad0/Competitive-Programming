@@ -19,4 +19,5 @@
 - [Progress Bar](https://codeforces.com/contest/71/problem/B)
 - [Epic Transformation](https://codeforces.com/contest/1506/problem/D)
 - [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C)
+- [Digital Logarithm](https://codeforces.com/contest/1728/problem/C) 
 
