@@ -20,4 +20,4 @@
 - [Epic Transformation](https://codeforces.com/contest/1506/problem/D)
 - [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C)
 - [Digital Logarithm](https://codeforces.com/contest/1728/problem/C) 
-
+- [Same Count One](https://codeforces.com/contest/1774/problem/D) 
