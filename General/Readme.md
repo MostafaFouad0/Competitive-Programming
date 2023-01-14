@@ -21,3 +21,4 @@
 - [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C)
 - [Digital Logarithm](https://codeforces.com/contest/1728/problem/C) 
 - [Same Count One](https://codeforces.com/contest/1774/problem/D) 
+- [Interesting Sequence](https://codeforces.com/contest/1775/problem/C) 
