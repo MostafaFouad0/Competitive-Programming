@@ -1,6 +1,6 @@
 /// get any negative cycle in the graph
 int bellman(int node) {
-    // all elements have cost 1e18
+    // all elements have cost 0
     cost[node] = 0;
     int x = -1;
     for (int i = 0; i < n; ++i) {
