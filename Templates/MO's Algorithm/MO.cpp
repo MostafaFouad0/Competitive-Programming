@@ -1,4 +1,4 @@
-int root = 1001;
+int root = 1001, lx = 0, rx = -1; /// root = ceil(sqrt(n))
 
 struct MO
 {
@@ -23,4 +23,12 @@ void add(int idx)
 
 void del(int idx)
 {
+}
+
+void query(int l,int r)
+{
+    while (lx < l)del(lx++);
+    while (lx > l)add(++lx);
+    while (rx < r)add(++rx);
+    while (rx > r)del(rx--);
 }
