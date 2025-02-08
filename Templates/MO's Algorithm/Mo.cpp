@@ -19,10 +19,12 @@ struct MO
 
 void add(int idx)
 {
+    /// do something
 }
 
 void del(int idx)
 {
+    /// do something
 }
 
 void query(int l,int r)
