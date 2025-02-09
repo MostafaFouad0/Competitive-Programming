@@ -4,10 +4,14 @@ struct MO
 {
     int l, r, idx, blc_idx;
 
-    MO(int _l,int _r,int _idx)
+    MO(int l, int r, int idx)
     {
-        this->l = _l, this->r = _r, this->idx = _idx;
-        blc_idx = this->idx / root;
+        this->l = l, this->r = r, this->idx = idx;
+        blc_idx = this->l / root;
+    }
+
+    MO()
+    {
     }
 
     bool operator<(const MO& other) const
