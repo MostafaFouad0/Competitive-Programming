@@ -29,8 +29,8 @@ void del(int idx)
 
 void query(int l,int r)
 {
-    while (lx < l)del(lx++);
-    while (lx > l)add(++lx);
     while (rx < r)add(++rx);
+    while (lx > l)add(--lx);
+    while (lx < l)del(lx++);
     while (rx > r)del(rx--);
 }
