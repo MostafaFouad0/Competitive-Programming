@@ -13,14 +13,14 @@ void dfs(int u,int par)
             low[u] = min(low[u], low[it]);
             if (low[it] > in[u])
             {
-                /// this a bridge (span edge)
+                /// this is a bridge (span edge)
                 bridges.push_back({u, it});
             }
         }
         else
         {
             low[u] = min(low[u], low[it]);
-            /// this a back edge
+            /// this is a back edge
         }
     }
 }
